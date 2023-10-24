@@ -2,7 +2,12 @@ package com.cga.hexatodo.application.service;
 
 import com.cga.hexatodo.domain.model.AdditionalTaskInfo;
 import com.cga.hexatodo.domain.model.Task;
-import com.cga.hexatodo.domain.port.in.*;
+import com.cga.hexatodo.domain.port.in.CreateTaskUseCase;
+import com.cga.hexatodo.domain.port.in.DeleteTaskUseCase;
+import com.cga.hexatodo.domain.port.in.GetAdditionalTaskInfoUseCase;
+import com.cga.hexatodo.domain.port.in.RetrieveTaskUseCase;
+import com.cga.hexatodo.domain.port.in.UpdateTaskUseCase;
+
 
 import java.util.List;
 import java.util.Optional;
