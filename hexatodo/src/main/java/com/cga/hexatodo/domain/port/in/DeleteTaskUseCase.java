@@ -1,6 +1,6 @@
 package com.cga.hexatodo.domain.port.in;
 
-public interface DeleteTaskUserCase {
+public interface DeleteTaskUseCase {
 
     boolean deleteTask(Long id);
 }

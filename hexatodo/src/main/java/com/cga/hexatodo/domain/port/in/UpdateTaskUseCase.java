@@ -4,7 +4,7 @@ import com.cga.hexatodo.domain.model.Task;
 
 import java.util.Optional;
 
-public interface UpdateTaskUserCase {
+public interface UpdateTaskUseCase {
 
     Optional<Task> updateTask(Long id, Task updateTask);
 }
